@@ -112,10 +112,10 @@ class InstaMine(tk.Tk):
         grid_outer.pack(fill="x", padx=12, pady=(0, 12))
 
         modes = [
-            ("replace_zero", "[0] Replace\nwith 0"),
-            ("move_trash",   "[X] Move to\nTrash"),
-            ("hash_replace", "[#] Hash\nReplace"),
-            ("replace_ns",   "[!] Replace\nwith NS"),
+            ("replace_zero", "0 Replace\nwith 0"),
+            ("move_trash",   "x Move to\nTrash"),
+            ("hash_replace", "# Hash\nReplace"),
+            ("replace_ns",   "! Replace\nwith NS"),
         ]
 
         self.mode_btns = {}
